@@ -1,3 +1,5 @@
+import spacy
+
 def extract_intent(doc):
     for token in doc:
         if token.dep_ == 'dobj':

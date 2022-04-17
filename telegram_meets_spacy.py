@@ -1,5 +1,7 @@
 import spacy
 from telegram.exe import Updater, MessageHandler, Filters
+
+
 # the callback function that uses spaCy
 def utterance(update, context):
     msg = update.message.text
